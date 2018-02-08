@@ -17,11 +17,13 @@
     <EditText
         android:layout_width="match_parent"
         android:hint="Introduce un mensaje"
+        android:id="@+id/textoMensaje"
         android:layout_margin="15dp"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="match_parent"
         android:background="@color/colorAccent"
+        android:id="@+id/enviar"
         android:text="Compartir"
         android:layout_height="wrap_content" />
 
